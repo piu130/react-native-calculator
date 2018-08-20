@@ -1,11 +1,12 @@
 import React, {Component} from 'react'
-import {View, Text} from 'react-native'
+import {View} from 'react-native'
+import {BasicPanel} from './views'
 
 export default class CalculatorApp extends Component {
   render () {
     return (
-      <View>
-        <Text>Hello</Text>
+      <View style={{height: '100%'}}>
+        <BasicPanel />
       </View>
     )
   }
